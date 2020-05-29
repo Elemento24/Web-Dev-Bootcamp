@@ -1,0 +1,20 @@
+<!-- You can see that there is a slash here, in front of app.css.
+This is because of the working of Browser.
+When we ask the browser to look for app.css, it looks for ":3000/app.css", and the same goes for a single sublevel added to the route like ":3000/posts"
+But if we happen to make more than one sublevels to the route like ":3000/fellinlovewith/:thing", the browser will look for ":3000/fellinlovewith/app.css"
+Adding a forward slash, tells the browser to look for app.css in the root folder. -->
+<!-- <link rel="stylesheet" href="/app.css"> -->
+
+<%- include("partials/header") %>
+
+<h1>You fell in love with: <%= thingVar.toUpperCase() %> </h1>
+
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+<p>GOOD CHOICE! RUSTY IS THE BEST!</p>
+<% } else { %>
+<p>Bad Choice!</p>
+<% } %>
+
+<p>P.S. This is the love.ejs file</p>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,24 @@
+.navbar-text{
+	width:100%;
+	font-family:'Ma Shan Zheng', cursive;
+	font-size:1.5rem;
+}
+
+.navbar-dark .navbar-text{
+	color:white;
+}
+
+.quotes{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+.card-header{
+	font-family:'Girassol', cursive;
+	font-size:2rem;
+}
+
+.card-text{
+	font-family:'Lobster', cursive;
+	font-size:1.2rem;
+}

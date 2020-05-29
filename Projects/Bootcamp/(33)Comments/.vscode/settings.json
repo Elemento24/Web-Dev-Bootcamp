@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+
+
+        "*.ejs": "html"
+
+    },
+    "material-icon-theme.files.associations": {
+
+        "*.ejs": "html"
+    }
+}

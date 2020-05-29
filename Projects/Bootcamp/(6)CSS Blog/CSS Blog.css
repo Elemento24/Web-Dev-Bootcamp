@@ -1,0 +1,55 @@
+h5{
+	text-transform:uppercase;
+	color:#3498db;
+	margin-left:20px;
+	letter-spacing:0.2rem;
+}
+
+h2{
+	margin-left:20px;
+	color:#2c3e50;
+	font-size:2.0rem;
+}
+
+body{
+	border:20px solid #bdc3c7;
+	/*margin-left:20%;
+	margin-right:20%;*/
+	margin:20px auto;
+	max-width: 700px;
+	width:80%;
+	font-family:Source Sans Pro;
+}
+
+p{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#para1{
+	border-left:5px solid #bdc3c7;
+	padding-left:5px;
+}
+
+/*#para3{
+	border-bottom:2px solid #f1f1f1;
+	padding-bottom:10px;
+}*/
+/*Can Just Insert id="para3" in the third paragraph and apply this CSS Rule.*/
+
+#para4{
+	border-left:5px solid #bdc3c7;
+	padding-left:5px;
+}
+
+hr {
+	width:93%;
+	max-width: 700px;
+	border: 0; 
+  	height: 1px; 
+  	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+/*No need to understand this line-by-line, just serach it on the Net*/

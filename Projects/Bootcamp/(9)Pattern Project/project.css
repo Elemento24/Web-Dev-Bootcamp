@@ -1,0 +1,14 @@
+.jumbotron{
+	background:url(1.jpg) center center / cover no-repeat;
+	/*background:url(1.jpg);*/
+}
+
+.img{
+	height:200px;
+	object-fit:cover;
+}
+
+.lead{
+	font-size: 20px;
+	font-weight:500;
+}
